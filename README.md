@@ -24,6 +24,9 @@ shell        interactive sql shell
 ## quick start
 
 ```bash
+# tool info
+python3 wp2blind.py -h
+
 # is it vulnerable
 python3 wp2blind.py check http://target --delay 3
 
